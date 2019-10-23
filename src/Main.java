@@ -173,11 +173,9 @@ public class Main {
 //        Tools.quickSort_self(list,0,list.size() - 1);
 //        System.out.println(list.toString());
 
-        Map<String, Integer> map = new HashMap();
+        Map<String, Integer> map = new HashMap<>();
         map.put("",1);
-        map.put("",2);
         map.put(null,3);
-        map.put(null,4);
 
         for (Map.Entry entry : map.entrySet()){
             System.out.println(entry.getKey() + " " + entry.getValue());
@@ -185,7 +183,7 @@ public class Main {
 
         System.out.println(map.size());
         System.out.println(map.toString());
-        map.
+
 
 
 
