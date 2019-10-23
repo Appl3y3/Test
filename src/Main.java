@@ -1,6 +1,3 @@
-import java.util.HashMap;
-import java.util.Map;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -173,19 +170,28 @@ public class Main {
 //        Tools.quickSort_self(list,0,list.size() - 1);
 //        System.out.println(list.toString());
 
-        Map<String, Integer> map = new HashMap<>();
-        map.put("",1);
-        map.put(null,3);
+        //14.测试map的方法
+//        Map<String, Integer> map = new HashMap<>();
+//        map.put("",1);
+//        map.put(null,3);
+//
+//        for (Map.Entry entry : map.entrySet()){
+//            System.out.println(entry.getKey() + " " + entry.getValue());
+//        }
+//
+//        System.out.println(map.size());
+//        System.out.println(map.toString());
 
-        for (Map.Entry entry : map.entrySet()){
-            System.out.println(entry.getKey() + " " + entry.getValue());
-        }
-
-        System.out.println(map.size());
-        System.out.println(map.toString());
-
-
-
+        /*
+         * commit message规范
+         * feat：新功能（feature）
+         * fix：修补bug
+         * docs：文档（documentation）
+         * style： 格式（不影响代码运行的变动）
+         * refactor：重构（即不是新增功能，也不是修改bug的代码变动）
+         * test：增加测试
+         * chore：构建过程或辅助工具的变动
+         */
 
 
 
