@@ -56,7 +56,6 @@ public class Tools{
 
     /**
      * 归并排序 - 合并
-     * @param a
      */
     public static int[] merge(int[] x, int[] y){
         int[] z = new int[x.length + y.length];
@@ -96,7 +95,7 @@ public class Tools{
      * @param arr
      * @param str left左边，right右边
      * @return .eg 2+2 or 2+3
-     * @see 边界问题很恶心
+     * 边界问题很恶心
      */
     public static int[] apart_arr(int[] arr, String str){
 
