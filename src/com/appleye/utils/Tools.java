@@ -271,9 +271,7 @@ public class Tools{
      * @param b
      */
     public static void twoSwitch(Integer a, Integer b) {
-//        a = a ^ b;
-//        b = a ^ b;
-//        a = a ^ b;
+
         Integer temp = new Integer(a);
         Class clazz = a.getClass();
         try {
